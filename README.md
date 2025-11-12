@@ -1,5 +1,6 @@
 # full-stackRENAL
 # AI empowers full-stack smart diagnosis
+[![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/Greenlovecola8023/full-stackRENAL)
 
 This project developed a full-stack diagnostic model for renal cell carcinoma, including four tasks: tissue detection, subtype prediction, auto-grading and prognostication. It is completed based on the features extracted by Prov-GigaPath combined with the abmil architecture. All required packages are listed in `requirements.txt`.
 ![overview.png](https://github.com/Green8023/full-stackRENAL/blob/main/overview.png)
@@ -26,4 +27,4 @@ Please see the code ```task_pathocls_prediction.py```
 Some visulization tools are provided. For tissue detection and subtype prediction, we make it visible and were able to mark it in different colors after model inference.
 Please see the code in visulization folder.
 
-The pre-trained model weights are public in model_weights folder.
+The pre-trained model weights are public in huggingface. https://huggingface.co/Greenlovecola8023/full-stackRENAL
